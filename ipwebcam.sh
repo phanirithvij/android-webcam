@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export ANDROID_SERIAL=`adb devices -l | grep -i oneplus | awk '{print $1}'`
+export ANDROID_SERIAL=`adb devices -l | grep -i M2007J3SP | awk '{print $1}'`
 export HOST_PORT=8080
 export IPWEBCAM_PORT=8080
 export V4L2_DEVICE=/dev/video0
